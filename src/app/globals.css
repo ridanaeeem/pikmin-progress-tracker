@@ -2,26 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* :root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	color: rgb(var(--foreground-rgb));
+	background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
+
+.group {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 40px;
+	background-color: rgb(191, 220, 194);
+	padding: 1vh 1vw;
+	margin: 2vh 2vw;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+
+.group img {
+	margin: 0 2vw;
+	object-fit: contain;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	padding: 2vh;
+}
+
+.pikmin {
+	margin: 1vw;
+	width: 150px;
+}
+
+#red {
+	background-color: rgba(255, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+#yellow {
+	background-color: rgba(251, 255, 0, 0.4);
+	border-radius: 10px;
+}
+
+#blue {
+	background-color: rgba(0, 8, 255, 0.4);
+	border-radius: 10px;
+}
+
+#white {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+}
+
+#purple {
+	background-color: rgba(170, 0, 255, 0.4);
+	border-radius: 10px;
+}
+
+#rock {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+#winged {
+	background-color: rgba(255, 0, 221, 0.4);
+	border-radius: 10px;
+}
+
+.rare {
+	display: flex;
+	flex-direction: row;
+}
+
+#star {
+	position: absolute;
+	padding: 0.5rem;
+	font-size: 2rem;
 }
