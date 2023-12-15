@@ -10,7 +10,7 @@ export default function Group({ category, urls }: { category: string; urls: stri
 	return (
 		<>
 			<div>{category}</div>
-			<div className="group ">{pikmins}</div>
+			<div id={category.toLowerCase()} className="group ">{pikmins}</div>
 		</>
 	);
 }

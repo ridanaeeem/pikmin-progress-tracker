@@ -5,7 +5,7 @@ export default function Home() {
 		<main className="">
 			<div className="">pikmin progress tracker</div>
 			<div className="flex flex-col basis-0 items-center;">
-				<Group
+				<Group 
 					category="Restaurant"
 					urls={[
 						"https://pikmin.wiki.gallery/images/6/69/Decor_Red_Restaurant.png",
