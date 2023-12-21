@@ -18,7 +18,6 @@
 */
 body {
 	background: #f7f1dc;
-	/* background: #15930a;  */
 }
 
 nav {
@@ -41,7 +40,6 @@ nav {
 	line-height: 84px;
 	text-align: center;
 	letter-spacing: 0.07em;
-
 	color: #15930a;
 	text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
 		1px 1px 0 rgb(255, 255, 255);
@@ -52,7 +50,7 @@ nav {
 	flex-direction: row;
 	justify-content: center;
 	border-radius: 40px;
-	background-color: rgb(191, 220, 194);
+	background-color: #e0e8bb;
 	padding: 1vh 1vw;
 	margin: 2vh 2vw;
 	max-width: 100%;
