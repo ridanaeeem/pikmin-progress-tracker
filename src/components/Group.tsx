@@ -1,7 +1,15 @@
 import React from "react";
 import Pikmin from "@/components/Pikmin";
 
-export default function Group({ category, urls }: { category: string; urls: string[] }) {
+export default function Group({
+	category,
+	description,
+	urls,
+}: {
+	category: string;
+	description: string;
+	urls: string[];
+}) {
 	const pikmins = urls.map((url) => (
 		<div key={url} className="pikmin">
 			<Pikmin category={category} url={url} />
@@ -9,8 +17,12 @@ export default function Group({ category, urls }: { category: string; urls: stri
 	));
 	return (
 		<>
-			<div>{category}</div>
-			<div id={category.toLowerCase()} className="group ">{pikmins}</div>
+			<div className="groupName">
+				{category} - {description}
+			</div>
+			<div id={category.toLowerCase().replace(/\s+/g, '')} className="group bg-slate-400">
+				{pikmins}
+			</div>
 		</>
 	);
 }

@@ -3,14 +3,14 @@
 import React, { useState, useEffect } from "react";
 
 export default function Pikmin({ category, url }: { category: string; url: string }) {
-	// determine the type of pikmin from the link 
+	// determine the type of pikmin from the link
 	let type: string = "";
 
 	if (url.includes("Red")) {
 		type = "red";
 	} else if (url.includes("Yellow")) {
 		type = "yellow";
-	} else if (url.includes("Blue")) {
+	} else if (url.includes("Blue") || url.includes("Mario")) {
 		type = "blue";
 	} else if (url.includes("White")) {
 		type = "white";
@@ -22,22 +22,22 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 		type = "winged";
 	}
 
-	// determine whether or not it is rare from the link 
+	// determine whether or not it is rare from the link
 	let rare = false;
 	if (url.includes("Rare")) {
 		rare = true;
 	}
 
-	// assign a name to the pikmin based on its attributes 
+	// assign a name to the pikmin based on its attributes
 	const pikminName = type + category + (rare ? "Rare" : "Normal");
 
-	// check in local storage if the user has a pikmin already, default to false if not 
+	// check in local storage if the user has a pikmin already, default to false if not
 	const [hasPikmin, setHasPikmin] = useState(() => {
 		const storedValue = localStorage.getItem(pikminName);
 		return storedValue ? JSON.parse(storedValue) : false;
 	});
 
-	// by default, the user doesn't have the pikmin so put a filter hiding it 
+	// by default, the user doesn't have the pikmin so put a filter hiding it
 	const [filter, setFilter] = useState("filter grayscale-100 brightness-0 opacity-40");
 
 	// if the user clicks a pikmin, change the status of the having that pikmin
@@ -49,9 +49,12 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 		// update local storage whenever hasPikmin changes
 		localStorage.setItem(pikminName, JSON.stringify(hasPikmin));
 		// update filter as well
-		setFilter(hasPikmin ? "" : "filter grayscale-100 brightness-0 opacity-40");
+		setFilter(
+			hasPikmin ? "drop-shadow-[-2px_0_0_rgba(0,0,0,0.65)]" : "filter grayscale-100 brightness-0 opacity-40"
+		);
 	}, [hasPikmin, pikminName]);
 
+	// drop-shadow-[-2px_0]
 	return (
 		<div id={type} className={rare ? "rare" : ""} onClick={handleClick}>
 			{/* if the pikmin is rare, add a star that will fill if the user has that pikmin */}
