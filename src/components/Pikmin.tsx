@@ -49,9 +49,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 		// update local storage whenever hasPikmin changes
 		localStorage.setItem(pikminName, JSON.stringify(hasPikmin));
 		// update filter as well
-		setFilter(
-			hasPikmin ? "drop-shadow-[-2px_0_0_rgba(0,0,0,0.65)]" : "filter grayscale-100 brightness-0 opacity-40"
-		);
+		setFilter(hasPikmin ? "filter drop-shadow-pikminShadow" : "filter grayscale-100 brightness-0 opacity-40");
 	}, [hasPikmin, pikminName]);
 
 	// drop-shadow-[-2px_0]
