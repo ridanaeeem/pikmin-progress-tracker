@@ -23,7 +23,7 @@ body {
 nav {
 	text-align: center;
 	width: 100%;
-	background-color: #15930a;
+	background-color: white;
 	position: fixed;
 	z-index: 10;
 }
@@ -41,8 +41,8 @@ nav {
 	text-align: center;
 	letter-spacing: 0.07em;
 	color: #15930a;
-	text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
-		1px 1px 0 rgb(255, 255, 255);
+	/* text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255); */
 }
 
 .group {
@@ -50,7 +50,7 @@ nav {
 	flex-direction: row;
 	justify-content: center;
 	border-radius: 40px;
-	background-color: #e0e8bb;
+	/* background-color: #a4be98;  */
 	padding: 1vh 1vw;
 	margin: 2vh 2vw;
 	max-width: 100%;

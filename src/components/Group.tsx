@@ -20,7 +20,7 @@ export default function Group({
 			<div className="groupName">
 				{category} - {description}
 			</div>
-			<div id={category.toLowerCase().replace(/\s+/g, '')} className="group bg-slate-400">
+			<div id={category.toLowerCase().replace(/\s+/g, "")} className="group bg-starting">
 				{pikmins}
 			</div>
 		</>
