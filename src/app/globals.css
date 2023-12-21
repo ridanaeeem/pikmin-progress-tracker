@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-	--foreground-rgb: 0, 0, 0;
-	--background-start-rgb: 214, 219, 220;
-	--background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--foreground-rgb: 255, 255, 255;
-		--background-start-rgb: 0, 0, 0;
-		--background-end-rgb: 0, 0, 0;
-	}
-}
-*/
 body {
 	background: #f7f1dc;
 }
@@ -58,7 +44,6 @@ nav {
 }
 
 .group img {
-	margin: 0 2vw;
 	object-fit: contain;
 	height: 200px;
 	display: block;
@@ -121,4 +106,19 @@ nav {
 	position: absolute;
 	padding: 0 0.5rem;
 	font-size: 2rem;
+}
+
+@media screen and (max-width: 830px) {
+	#title {
+		font-size: 1rem;
+	}
+
+	.group img {
+		height: 200px;
+	}
+
+	.pikmin {
+		margin: 2vw;
+		width: 40vw;
+	}
 }
