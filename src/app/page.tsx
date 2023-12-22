@@ -315,7 +315,7 @@ export default function Home() {
 					]}></Group>
 				<Group
 					category="Park"
-					description="Four-Leaef Clover"
+					description="Four-Leaf Clover"
 					urls={[
 						"https://pikmin.wiki.gallery/images/9/9f/Decor_Red_Park_4.png",
 						"https://pikmin.wiki.gallery/images/8/8e/Decor_Yellow_Park_4.png",
