@@ -4,11 +4,13 @@ export default function Home() {
 	return (
 		<main className="">
 			<nav>
+				<div id="menu"></div>
 				<div id="title" className="">
 					<a href="/">PIKMIN PROGRESS TRACKER</a>
 				</div>
 			</nav>
 			<div className="account"></div>
+			<div className="menuDisplay"></div>
 			<div className="flex flex-col basis-0 items-center;">
 				<Group
 					category="Restaurant"
