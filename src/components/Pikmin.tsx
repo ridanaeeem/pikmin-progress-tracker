@@ -33,8 +33,10 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 
 	// check in local storage if the user has a pikmin already, default to false if not
 	const [hasPikmin, setHasPikmin] = useState(() => {
-		const storedValue = localStorage.getItem(pikminName);
-		return storedValue ? JSON.parse(storedValue) : false;
+		if (typeof window !== "undefined") {
+			const storedValue = localStorage.getItem(pikminName);
+			return storedValue ? JSON.parse(storedValue) : false;
+		}
 	});
 
 	// by default, the user doesn't have the pikmin so put a filter hiding it
@@ -47,9 +49,11 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 
 	useEffect(() => {
 		// update local storage whenever hasPikmin changes
-		localStorage.setItem(pikminName, JSON.stringify(hasPikmin));
-		// update filter as well
-		setFilter(hasPikmin ? "filter drop-shadow-pikminShadow" : "filter grayscale-100 brightness-0 opacity-40");
+		if (typeof window !== "undefined") {
+			localStorage.setItem(pikminName, JSON.stringify(hasPikmin));
+			// update filter as well
+			setFilter(hasPikmin ? "filter drop-shadow-pikminShadow" : "filter grayscale-100 brightness-0 opacity-40");
+		}
 	}, [hasPikmin, pikminName]);
 
 	// drop-shadow-[-2px_0]
