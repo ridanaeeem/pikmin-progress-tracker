@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import NavMenu from "@/components/NavMenu";
 import AllPikmin from "@/components/AllPikmin";
+import About from "@/components/About"
 
 export default function Home() {
 	const [showMenu, setShowMenu] = useState("hidden");
@@ -29,6 +30,7 @@ export default function Home() {
 			</nav>
 			<div className="account"></div>
 			<AllPikmin />
+			<About />
 		</main>
 	);
 }

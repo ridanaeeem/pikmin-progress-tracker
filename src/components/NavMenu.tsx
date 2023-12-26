@@ -13,9 +13,15 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 
 	return (
 		<div className="menuDisplay" onClick={handleLinkClick}>
-			<a id="top" href="/">
-				Back to top
-			</a>
+			<div className="flex">
+				<a className="top h-100" href="/">
+					Back to top
+				</a>
+				<a className="top h-100">Stats</a>
+				<a className="top h-100" href="#about">
+					About
+				</a>
+			</div>
 			<div id="iconDisplay">
 				<a href="#restaurant">
 					<img
