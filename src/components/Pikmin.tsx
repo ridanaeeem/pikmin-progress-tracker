@@ -16,7 +16,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 		type = "white";
 	} else if (url.includes("Purple")) {
 		type = "purple";
-	} else if (url.includes("Rock")) {
+	} else if (url.includes("Rock") && !url.includes("Winged")) {
 		type = "rock";
 	} else if (url.includes("Winged")) {
 		type = "winged";

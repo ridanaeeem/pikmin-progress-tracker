@@ -340,8 +340,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/c/c9/Decor_Blue_Roadside.png",
 					"https://pikmin.wiki.gallery/images/a/a2/Decor_White_Roadside.png",
 					"https://pikmin.wiki.gallery/images/thumb/5/56/Decor_Purple_Roadside.png/179px-Decor_Purple_Roadside.png",
-					"https://pikmin.wiki.gallery/images/thumb/0/08/Decor_Rock_Roadside_2.png/200px-Decor_Rock_Roadside_2.png",
-					"https://pikmin.wiki.gallery/images/c/cf/Decor_Winged_Roadside_2.png",
+					"https://www.pikminwiki.com/images/thumb/a/a2/Decor_Rock_Roadside.png/150px-Decor_Rock_Roadside.png",
+					"https://www.pikminwiki.com/images/thumb/1/1d/Decor_Winged_Roadside.png/150px-Decor_Winged_Roadside.png",
 				]}></Group>
 			<Group
 				category="Roadside"
