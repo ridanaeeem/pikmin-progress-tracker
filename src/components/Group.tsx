@@ -17,12 +17,11 @@ export default function Group({
 	));
 	return (
 		<>
-			<div className="groupName">
+			<div id={category.toLowerCase().replace(/\s+/g, "")} className="groupName">
+				<div id={description.toLowerCase().replace(/\s+/g, "")}></div>
 				{category} - {description}
 			</div>
-			<div id={category.toLowerCase().replace(/\s+/g, "")} className="group bg-starting">
-				{pikmins}
-			</div>
+			<div className="group bg-starting">{pikmins}</div>
 		</>
 	);
 }
