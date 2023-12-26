@@ -239,7 +239,7 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 				<a href="#whitechesspiece">Chess Piece</a>
 				<a href="#fingerboard">Fingerboard</a>
 				<a href="#flowercard">Flower Card</a>
-				<a href="#jack-o'-lantern">Jack-o'-lantern</a>
+				<a href="#jack-o'-lantern">Jack-o-lantern</a>
 				<a href="#halloweentreat">Halloween Treat</a>
 				<a href="#firstanniversarysnack">First Anniversary Snack</a>
 				<a href="#koppaitespacesuit">Koppaite Space Suit</a>
