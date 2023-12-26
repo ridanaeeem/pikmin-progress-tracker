@@ -17,7 +17,9 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 				<a className="top h-100" href="/">
 					Back to top
 				</a>
-				<a className="top h-100">Stats</a>
+				<a className="top h-100" href="#stats">
+					Stats
+				</a>
 				<a className="top h-100" href="#about">
 					About
 				</a>
