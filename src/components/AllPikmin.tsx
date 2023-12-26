@@ -649,7 +649,7 @@ export default function AllPikmin() {
 				]}></Group>
 			<Group
 				category="Special"
-				description="Jack-o'-lantern"
+				description="Jack-o-lantern"
 				urls={[
 					"https://pikmin.wiki.gallery/images/b/b6/Decor_Red_Halloween.png",
 					"https://pikmin.wiki.gallery/images/d/d6/Decor_Yellow_Halloween.png",
