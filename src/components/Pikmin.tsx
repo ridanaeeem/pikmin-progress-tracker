@@ -23,10 +23,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 	}
 
 	// determine whether or not it is rare from the link
-	let rare = false;
-	if (url.includes("Rare")) {
-		rare = true;
-	}
+	const rare = url.includes("Rare");
 
 	// assign a name to the pikmin based on its attributes
 	const pikminName = type + category + (rare ? "Rare" : "Normal");
