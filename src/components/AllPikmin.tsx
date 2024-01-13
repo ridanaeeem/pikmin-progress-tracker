@@ -18,7 +18,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/c/c2/Decor_Red_Chef_Hat_Rare.png/127px-Decor_Red_Chef_Hat_Rare.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/12/Decor_Yellow_Chef_Hat_Rare.png/102px-Decor_Yellow_Chef_Hat_Rare.png",
 					"https://pikmin.wiki.gallery/images/b/b6/Decor_Blue_Chef_Hat_Rare.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Café"
 				description="Coffee Cup"
@@ -30,7 +31,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/e/e9/Decor_Purple_Caf%C3%A9.png",
 					"https://pikmin.wiki.gallery/images/c/c6/Decor_Rock_Caf%C3%A9.png",
 					"https://pikmin.wiki.gallery/images/c/c7/Decor_Winged_Caf%C3%A9.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Sweet Shop"
 				description="Macaron"
@@ -42,7 +44,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/c/c8/Decor_Purple_Sweetshop.png/190px-Decor_Purple_Sweetshop.png",
 					"https://pikmin.wiki.gallery/images/thumb/e/e1/Decor_Rock_Sweetshop.png/154px-Decor_Rock_Sweetshop.png",
 					"https://pikmin.wiki.gallery/images/9/9c/Decor_Winged_Sweetshop.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Sweet Shop"
 				description="Donut"
@@ -54,7 +57,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Purple_Sweetshop_2.png/200px-Decor_Purple_Sweetshop_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/5/50/Decor_Rock_Sweetshop_2.png/200px-Decor_Rock_Sweetshop_2.png",
 					"https://pikmin.wiki.gallery/images/b/b7/Decor_Winged_Sweetshop_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Movie Theater"
 				description="Popcorn Snack"
@@ -66,7 +70,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/3/36/Decor_Purple_Movie_Theater.png",
 					"https://pikmin.wiki.gallery/images/4/4f/Decor_Rock_Movie_Theater.png",
 					"https://pikmin.wiki.gallery/images/0/08/Decor_Winged_Movie_Theater.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Pharmacy"
 				description="Toothbrush"
@@ -78,7 +83,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/d/d4/Decor_Purple_Pharmacy.png",
 					"https://pikmin.wiki.gallery/images/4/48/Decor_Rock_Pharmacy.png",
 					"https://pikmin.wiki.gallery/images/8/85/Decor_Winged_Pharmacy.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Zoo"
 				description="Dandelion"
@@ -90,7 +96,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/1/14/Decor_Purple_Zoo.png",
 					"https://pikmin.wiki.gallery/images/b/b5/Decor_Rock_Zoo.png",
 					"https://pikmin.wiki.gallery/images/1/14/Decor_Winged_Zoo.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Forest"
 				description="Stag Beetle"
@@ -102,7 +109,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/5/54/Decor_Purple_Forest_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/e/e7/Decor_Rock_Forest_1.png/170px-Decor_Rock_Forest_1.png",
 					"https://pikmin.wiki.gallery/images/1/14/Decor_Winged_Forest_1.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Forest"
 				description="Acorn"
@@ -114,7 +122,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/2/24/Decor_Purple_Forest_2.png",
 					"https://pikmin.wiki.gallery/images/7/7d/Decor_Rock_Forest_2.png",
 					"https://pikmin.wiki.gallery/images/5/57/Decor_Winged_Forest_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Waterside"
 				description="Fishing Lure"
@@ -126,7 +135,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/2/28/Decor_Purple_Waterside.png",
 					"https://pikmin.wiki.gallery/images/8/89/Decor_Rock_Waterside.png",
 					"https://pikmin.wiki.gallery/images/1/12/Decor_Winged_Waterside.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Post Office"
 				description="Stamp"
@@ -138,7 +148,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/7/71/Decor_Purple_Post_Office.png",
 					"https://pikmin.wiki.gallery/images/a/a8/Decor_Rock_Post_Office.png",
 					"https://pikmin.wiki.gallery/images/2/28/Decor_Winged_Post_Office.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Art Gallery"
 				description="Picture Frame"
@@ -150,7 +161,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/b/be/Decor_Purple_Art_Gallery.png",
 					"https://pikmin.wiki.gallery/images/4/41/Decor_Rock_Art_Gallery.png",
 					"https://pikmin.wiki.gallery/images/7/73/Decor_Winged_Art_Gallery.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Airport"
 				description="Toy Airplane"
@@ -162,7 +174,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/6/60/Decor_Purple_Airport.png/200px-Decor_Purple_Airport.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/fc/Decor_Rock_Airport.png/200px-Decor_Rock_Airport.png",
 					"https://pikmin.wiki.gallery/images/thumb/e/e8/Decor_Winged_Airport.png/200px-Decor_Winged_Airport.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Station"
 				description="Paper Train"
@@ -174,7 +187,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Purple_Station.png/188px-Decor_Purple_Station.png",
 					"https://pikmin.wiki.gallery/images/8/8a/Decor_Rock_Station.png",
 					"https://pikmin.wiki.gallery/images/1/1f/Decor_Winged_Station.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Station"
 				description="Ticket"
@@ -186,7 +200,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/f/f9/Decor_Purple_Ticket.png/179px-Decor_Purple_Ticket.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/42/Decor_Rock_Ticket.png/200px-Decor_Rock_Ticket.png",
 					"https://pikmin.wiki.gallery/images/d/dc/Decor_Winged_Ticket.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Beach"
 				description="Shell"
@@ -198,7 +213,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/4/44/Decor_Purple_Beach.png/190px-Decor_Purple_Beach.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0a/Decor_Rock_Beach.png/200px-Decor_Rock_Beach.png",
 					"https://pikmin.wiki.gallery/images/9/95/Decor_Winged_Beach.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Burger Place"
 				description="Burger"
@@ -210,7 +226,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/8/89/Decor_Purple_Hamburger_Shop.png/200px-Decor_Purple_Hamburger_Shop.png",
 					"https://pikmin.wiki.gallery/images/thumb/9/98/Decor_Rock_Hamburger_Shop.png/200px-Decor_Rock_Hamburger_Shop.png",
 					"https://pikmin.wiki.gallery/images/a/a2/Decor_Winged_Hamburger_Shop.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Corner Store"
 				description="Bottle Cap"
@@ -222,7 +239,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/5/55/Decor_Purple_Mini-mart.png",
 					"https://pikmin.wiki.gallery/images/c/c2/Decor_Rock_Mini-mart.png",
 					"https://pikmin.wiki.gallery/images/d/d4/Decor_Winged_Mini-mart.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Corner Store"
 				description="Snack"
@@ -234,7 +252,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/f/fb/Decor_Purple_Snack.png",
 					"https://pikmin.wiki.gallery/images/e/eb/Decor_Rock_Snack.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/1f/Decor_Winged_Snack.png/200px-Decor_Winged_Snack.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Supermarket"
 				description="Mushroom"
@@ -246,7 +265,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/2/21/Decor_Purple_Supermarket_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/47/Decor_Rock_Supermarket_1.png/169px-Decor_Rock_Supermarket_1.png",
 					"https://pikmin.wiki.gallery/images/0/02/Decor_Winged_Supermarket_1.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Supermarket"
 				description="Banana"
@@ -258,7 +278,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/c/ce/Decor_Purple_Supermarket_2.png/178px-Decor_Purple_Supermarket_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/8/8b/Decor_Rock_Supermarket_2.png/200px-Decor_Rock_Supermarket_2.png",
 					"https://pikmin.wiki.gallery/images/3/37/Decor_Winged_Supermarket_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Bakery"
 				description="Baguette"
@@ -270,7 +291,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/6/6b/Decor_Purple_Bakery.png/200px-Decor_Purple_Bakery.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/4b/Decor_Rock_Bakery.png/200px-Decor_Rock_Bakery.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/f9/Decor_Winged_Bakery.png/200px-Decor_Winged_Bakery.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Hair Salon"
 				description="Scissors"
@@ -282,7 +304,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/d/dc/Decor_Purple_Hair_Salon.png",
 					"https://pikmin.wiki.gallery/images/7/7a/Decor_Rock_Hair_Salon.png",
 					"https://pikmin.wiki.gallery/images/b/b0/Decor_Winged_Hair_Salon.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Clothes Store"
 				description="Hair Tie"
@@ -294,7 +317,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/9/92/Decor_Purple_Clothing_Store.png",
 					"https://pikmin.wiki.gallery/images/b/b0/Decor_Rock_Clothing_Store.png",
 					"https://pikmin.wiki.gallery/images/4/46/Decor_Winged_Clothing_Store.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Park"
 				description="Clover"
@@ -306,7 +330,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/b/b9/Decor_Purple_Park.png",
 					"https://pikmin.wiki.gallery/images/2/21/Decor_Rock_Park.png",
 					"https://pikmin.wiki.gallery/images/1/11/Decor_Winged_Park.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Park"
 				description="Four-Leaf Clover"
@@ -318,7 +343,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/9/91/Decor_Purple_Park_4.png/200px-Decor_Purple_Park_4.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/48/Decor_Rock_Park_4.png/200px-Decor_Rock_Park_4.png",
 					"https://pikmin.wiki.gallery/images/c/c1/Decor_Winged_Park_4.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Library Or Bookstore"
 				description="Tiny Book"
@@ -330,7 +356,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/e/ed/Decor_Purple_Tiny_Book.png/185px-Decor_Purple_Tiny_Book.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/46/Decor_Rock_Tiny_Book.png/200px-Decor_Rock_Tiny_Book.png",
 					"https://pikmin.wiki.gallery/images/thumb/d/d8/Decor_Winged_Tiny_Book.png/191px-Decor_Winged_Tiny_Book.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Roadside"
 				description="Green Sticker"
@@ -342,7 +369,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/5/56/Decor_Purple_Roadside.png/179px-Decor_Purple_Roadside.png",
 					"https://www.pikminwiki.com/images/thumb/a/a2/Decor_Rock_Roadside.png/150px-Decor_Rock_Roadside.png",
 					"https://www.pikminwiki.com/images/thumb/1/1d/Decor_Winged_Roadside.png/150px-Decor_Winged_Roadside.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Roadside"
 				description="Blue Sticker"
@@ -354,7 +382,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/f/f3/Decor_Purple_Roadside_2.png/179px-Decor_Purple_Roadside_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/08/Decor_Rock_Roadside_2.png/200px-Decor_Rock_Roadside_2.png",
 					"https://pikmin.wiki.gallery/images/c/cf/Decor_Winged_Roadside_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Roadside"
 				description="Yellow Sticker"
@@ -366,7 +395,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/b/b4/Decor_Purple_Roadside_3.png/179px-Decor_Purple_Roadside_3.png",
 					"https://pikmin.wiki.gallery/images/thumb/8/80/Decor_Rock_Roadside_3.png/200px-Decor_Rock_Roadside_3.png",
 					"https://pikmin.wiki.gallery/images/1/1b/Decor_Winged_Roadside_3.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Roadside"
 				description="Winter Sticker"
@@ -378,7 +408,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/2/2c/Decor_Purple_Roadside_Winter.png/179px-Decor_Purple_Roadside_Winter.png",
 					"https://pikmin.wiki.gallery/images/thumb/d/d0/Decor_Rock_Roadside_Winter.png/200px-Decor_Rock_Roadside_Winter.png",
 					"https://pikmin.wiki.gallery/images/b/b4/Decor_Winged_Roadside_Winter.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Roadside"
 				description="Coin"
@@ -390,7 +421,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/3/3a/Decor_Purple_Roadside_Coin.png/186px-Decor_Purple_Roadside_Coin.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/f3/Decor_Rock_Roadside_Coin.png/200px-Decor_Rock_Roadside_Coin.png",
 					"https://pikmin.wiki.gallery/images/3/31/Decor_Winged_Roadside_Coin.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Sushi Restaurant"
 				description="Sushi"
@@ -402,7 +434,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/e/ee/Decor_Purple_Sushi.png/197px-Decor_Purple_Sushi.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/4d/Decor_Rock_Sushi.png/200px-Decor_Rock_Sushi.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/42/Decor_Winged_Sushi.png/200px-Decor_Winged_Sushi.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Mountain"
 				description="Mountain Pin Badge"
@@ -410,7 +443,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/0/0a/Decor_Red_Mountain.png/200px-Decor_Red_Mountain.png",
 					"https://pikmin.wiki.gallery/images/thumb/2/29/Decor_Yellow_Mountain.png/200px-Decor_Yellow_Mountain.png",
 					"https://pikmin.wiki.gallery/images/thumb/2/27/Decor_Blue_Mountain.png/200px-Decor_Blue_Mountain.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Stadium"
 				description="Ball Keychain"
@@ -418,7 +452,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/4/46/Decor_Red_Stadium.png",
 					"https://pikmin.wiki.gallery/images/6/6e/Decor_Yellow_Stadium.png",
 					"https://pikmin.wiki.gallery/images/8/8c/Decor_Blue_Stadium.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Rainy Day"
 				description="Leaf Hat"
@@ -426,14 +461,16 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/6/67/Decor_Blue_Rain_1.png",
 					"https://pikmin.wiki.gallery/images/c/cc/Decor_Blue_Rain_2.png",
 					"https://pikmin.wiki.gallery/images/1/18/Decor_Blue_Rain_3.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Snowy Day"
 				description="Snow"
 				urls={[
 					"https://pikmin.wiki.gallery/images/a/a8/Decor_Blue_Snow.png",
 					"https://pikmin.wiki.gallery/images/8/82/Decor_White_Snow.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Theme Park"
 				description="Theme Park Ticket"
@@ -444,7 +481,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/7/76/Decor_Red_Theme_Park_2.png/200px-Decor_Red_Theme_Park_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/d/d7/Decor_Yellow_Theme_Park_2.png/200px-Decor_Yellow_Theme_Park_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/c/cc/Decor_Blue_Theme_Park_2.png/200px-Decor_Blue_Theme_Park_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Bus Stop"
 				description="Bus Papercraft"
@@ -456,7 +494,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/2/2f/Decor_Purple_Bus_Stop.png/169px-Decor_Purple_Bus_Stop.png",
 					"https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Rock_Bus_Stop.png/200px-Decor_Rock_Bus_Stop.png",
 					"https://pikmin.wiki.gallery/images/thumb/5/52/Decor_Winged_Bus_Stop.png/182px-Decor_Winged_Bus_Stop.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Italian Restaurant"
 				description="Pizza"
@@ -468,7 +507,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/0/0c/Decor_Purple_Italian.png/200px-Decor_Purple_Italian.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/08/Decor_Rock_Italian.png/200px-Decor_Rock_Italian.png",
 					"https://pikmin.wiki.gallery/images/thumb/c/c1/Decor_Winged_Italian.png/175px-Decor_Winged_Italian.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Ramen Restaurant"
 				description="Ramen Keychain"
@@ -476,7 +516,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/a3/Decor_Red_Ramen.png/200px-Decor_Red_Ramen.png",
 					"https://pikmin.wiki.gallery/images/a/a7/Decor_Yellow_Ramen.png",
 					"https://pikmin.wiki.gallery/images/thumb/7/78/Decor_Blue_Ramen.png/200px-Decor_Blue_Ramen.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Bridge"
 				description="Bridge Pin Badge"
@@ -484,7 +525,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Red_Bridge.png/200px-Decor_Red_Bridge.png",
 					"https://pikmin.wiki.gallery/images/thumb/5/52/Decor_Yellow_Bridge.png/200px-Decor_Yellow_Bridge.png",
 					"https://pikmin.wiki.gallery/images/thumb/3/37/Decor_Blue_Bridge.png/200px-Decor_Blue_Bridge.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Hotel"
 				description="Hotel Amenities"
@@ -496,7 +538,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/6/6d/Decor_Purple_Hotel.png/186px-Decor_Purple_Hotel.png",
 					"https://pikmin.wiki.gallery/images/thumb/6/66/Decor_Rock_Hotel.png/200px-Decor_Rock_Hotel.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/49/Decor_Winged_Hotel.png/200px-Decor_Winged_Hotel.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Makeup Store"
 				description="Makeup"
@@ -508,7 +551,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/a6/Decor_Purple_Makeup.png/193px-Decor_Purple_Makeup.png",
 					"https://pikmin.wiki.gallery/images/thumb/b/bd/Decor_Rock_Makeup.png/200px-Decor_Rock_Makeup.png",
 					"https://pikmin.wiki.gallery/images/thumb/7/70/Decor_Winged_Makeup.png/200px-Decor_Winged_Makeup.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Shrines and Temples"
 				description="Fortune (Very Lucky)"
@@ -516,7 +560,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/4/4a/Decor_Red_Fortune_1.png",
 					"https://pikmin.wiki.gallery/images/8/82/Decor_Yellow_Fortune_1.png",
 					"https://pikmin.wiki.gallery/images/9/9b/Decor_Blue_Fortune_1.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Shrines and Temples"
 				description="Fortune (Lucky)"
@@ -524,7 +569,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/8/87/Decor_Red_Fortune_2.png/200px-Decor_Red_Fortune_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/f1/Decor_Yellow_Fortune_2.png/200px-Decor_Yellow_Fortune_2.png",
 					"https://pikmin.wiki.gallery/images/7/71/Decor_Blue_Fortune_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Shrines and Temples"
 				description="Fortune (Pretty Lucky)"
@@ -532,7 +578,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/b/ba/Decor_Red_Fortune_3.png/200px-Decor_Red_Fortune_3.png",
 					"https://pikmin.wiki.gallery/images/thumb/8/8c/Decor_Yellow_Fortune_3.png/200px-Decor_Yellow_Fortune_3.png",
 					"https://pikmin.wiki.gallery/images/e/e6/Decor_Blue_Fortune_3.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Shrines and Temples"
 				description="Fortune (A Little Lucky)"
@@ -540,7 +587,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/7/70/Decor_Red_Fortune_4.png/200px-Decor_Red_Fortune_4.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/11/Decor_Yellow_Fortune_4.png/200px-Decor_Yellow_Fortune_4.png",
 					"https://pikmin.wiki.gallery/images/b/b7/Decor_Blue_Fortune_4.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Shrines and Temples"
 				description="Fortune (Future Luck)"
@@ -548,7 +596,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/2/2f/Decor_Red_Fortune_5.png/200px-Decor_Red_Fortune_5.png",
 					"https://pikmin.wiki.gallery/images/thumb/6/65/Decor_Yellow_Fortune_5.png/200px-Decor_Yellow_Fortune_5.png",
 					"https://pikmin.wiki.gallery/images/d/da/Decor_Blue_Fortune_5.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Appliances Store"
 				description="Battery (Large & Small)"
@@ -559,18 +608,21 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/5/56/Decor_Yellow_S_Battery_1.png",
 					"https://pikmin.wiki.gallery/images/7/70/Decor_Yellow_S_Battery_2.png",
 					"https://pikmin.wiki.gallery/images/6/65/Decor_Yellow_S_Battery_3.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Appliances Store"
 				description="Fairy Lights"
 				urls={[
 					"https://pikmin.wiki.gallery/images/4/4c/Decor_Yellow_Fairy_Lights_1.png",
 					"https://pikmin.wiki.gallery/images/0/04/Decor_Yellow_Fairy_Lights_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Mario Hat"
-				urls={["https://pikmin.wiki.gallery/images/5/50/Decor_Special_Mario.png"]}></Group>
+				urls={["https://pikmin.wiki.gallery/images/5/50/Decor_Special_Mario.png"]}
+			/>
 			<Group
 				category="Special"
 				description="Lunar New Year Ornament"
@@ -581,7 +633,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/5/59/Decor_Red_Special_Lunar_New_Year_2.png/200px-Decor_Red_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/5/50/Decor_Yellow_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0f/Decor_Blue_Special_Lunar_New_Year_2.png/200px-Decor_Blue_Special_Lunar_New_Year_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="White Chess Piece"
@@ -593,7 +646,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/f/fd/Decor_Purple_Chess_1.png/171px-Decor_Purple_Chess_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0a/Decor_Rock_Chess_1.png/200px-Decor_Rock_Chess_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/b/be/Decor_Winged_Chess_1.png/107px-Decor_Winged_Chess_1.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Black Chess Piece"
@@ -605,7 +659,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/a3/Decor_Purple_Chess_2.png/87px-Decor_Purple_Chess_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Rock_Chess_2.png/177px-Decor_Rock_Chess_2.png",
 					"https://pikmin.wiki.gallery/images/1/17/Decor_Winged_Chess_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Fingerboard"
@@ -617,7 +672,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/0/0d/Decor_Purple_Skateboard.png/200px-Decor_Purple_Skateboard.png",
 					"https://pikmin.wiki.gallery/images/thumb/c/c3/Decor_Rock_Skateboard.png/200px-Decor_Rock_Skateboard.png",
 					"https://pikmin.wiki.gallery/images/thumb/3/34/Decor_Winged_Skateboard.png/200px-Decor_Winged_Skateboard.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Flower Card"
@@ -646,7 +702,8 @@ export default function AllPikmin() {
 					"https://github.com/zviznemte/PikminBloomAssets/blob/main/Sprites/Pikmins/Picture%20Book/Purple%20Pikmin/icon_Book_Pik0445_05_0.png?raw=",
 					"https://github.com/zviznemte/PikminBloomAssets/blob/main/Sprites/Pikmins/Picture%20Book/Purple%20Pikmin/icon_Book_Pik0445_26_0.png?raw=",
 					"https://github.com/zviznemte/PikminBloomAssets/blob/main/Sprites/Pikmins/Picture%20Book/Purple%20Pikmin/icon_Book_Pik0445_10_0.png?raw=true",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Jack-o-lantern"
@@ -658,7 +715,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/d/d1/Decor_Purple_Halloween.png/151px-Decor_Purple_Halloween.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/12/Decor_Rock_Halloween.png/200px-Decor_Rock_Halloween.png",
 					"https://pikmin.wiki.gallery/images/a/a7/Decor_Winged_Halloween.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Halloween Treat"
@@ -670,7 +728,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/7/7c/Decor_Purple_Halloween_Treat.png/200px-Decor_Purple_Halloween_Treat.png",
 					"https://pikmin.wiki.gallery/images/thumb/3/37/Decor_Rock_Halloween_Treat.png/200px-Decor_Rock_Halloween_Treat.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/48/Decor_Winged_Halloween_Treat.png/200px-Decor_Winged_Halloween_Treat.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="First Anniversary Snack"
@@ -682,7 +741,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/5/5e/Decor_Purple_1st_Anniversary.png/150px-Decor_Purple_1st_Anniversary.png",
 					"https://pikmin.wiki.gallery/images/thumb/e/e6/Decor_Rock_1st_Anniversary.png/150px-Decor_Rock_1st_Anniversary.png",
 					"https://pikmin.wiki.gallery/images/thumb/2/29/Decor_Winged_1st_Anniversary.png/150px-Decor_Winged_1st_Anniversary.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Koppaite Space Suit"
@@ -690,7 +750,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/1/1e/Decor_Red_Koppaite.png/105px-Decor_Red_Koppaite.png",
 					"https://pikmin.wiki.gallery/images/thumb/d/d4/Decor_Yellow_Koppaite.png/148px-Decor_Yellow_Koppaite.png",
 					"https://pikmin.wiki.gallery/images/thumb/2/2e/Decor_Blue_Koppaite.png/139px-Decor_Blue_Koppaite.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Mitten"
@@ -702,7 +763,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/4/4c/Decor_Purple_Mitten.png/104px-Decor_Purple_Mitten.png",
 					"https://pikmin.wiki.gallery/images/thumb/3/3f/Decor_Rock_Mitten.png/128px-Decor_Rock_Mitten.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/10/Decor_Winged_Mitten.png/150px-Decor_Winged_Mitten.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="2023 Glasses"
@@ -714,7 +776,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/8/8a/Decor_Purple_2023_Glasses.png/150px-Decor_Purple_2023_Glasses.png",
 					"https://pikmin.wiki.gallery/images/thumb/7/72/Decor_Rock_2023_Glasses.png/150px-Decor_Rock_2023_Glasses.png",
 					"https://pikmin.wiki.gallery/images/thumb/a/ad/Decor_Winged_2023_Glasses.png/150px-Decor_Winged_2023_Glasses.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Present Sticker"
@@ -726,7 +789,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/6/67/Decor_Purple_Present_Sticker.png/150px-Decor_Purple_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/c/cb/Decor_Rock_Present_Sticker.png/150px-Decor_Rock_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/fe/Decor_Winged_Present_Sticker.png/150px-Decor_Winged_Present_Sticker.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Present Sticker (Gold)"
@@ -735,7 +799,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/5/53/Decor_Yellow_Tour_Sticker.png/150px-Decor_Yellow_Tour_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/14/Decor_Blue_Tour_Sticker.png/150px-Decor_Blue_Tour_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/4b/Decor_White_Tour_Sticker.png/150px-Decor_White_Tour_Sticker.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Easter Egg"
@@ -747,7 +812,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/2/26/Decor_Purple_Easter_Egg.png/111px-Decor_Purple_Easter_Egg.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/f9/Decor_Rock_Easter_Egg.png/139px-Decor_Rock_Easter_Egg.png",
 					"https://pikmin.wiki.gallery/images/e/e5/Decor_Winged_Easter_Egg.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Sneaker Keychain"
@@ -759,7 +825,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/0/0d/Decor_Purple_Sneaker.png/133px-Decor_Purple_Sneaker.png",
 					"https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Rock_Sneaker.png/135px-Decor_Rock_Sneaker.png",
 					"https://pikmin.wiki.gallery/images/thumb/7/73/Decor_Winged_Sneaker.png/150px-Decor_Winged_Sneaker.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Pikmin 4 Spaceships"
@@ -771,7 +838,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/0/08/Decor_Purple_Rocket.png/150px-Decor_Purple_Rocket.png",
 					"https://pikmin.wiki.gallery/images/thumb/9/99/Decor_Rock_Rocket.png/150px-Decor_Rock_Rocket.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0b/Decor_Winged_Rocket.png/150px-Decor_Winged_Rocket.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Mahjong Tiles"
@@ -790,7 +858,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/7/79/Decor_Purple_Mahjong_2.png/134px-Decor_Purple_Mahjong_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Rock_Mahjong_2.png/150px-Decor_Rock_Mahjong_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/10/Decor_Winged_Mahjong_2.png/150px-Decor_Winged_Mahjong_2.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Ice Cream"
@@ -802,7 +871,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/4/40/Decor_Purple_Ice_Cream.png/140px-Decor_Purple_Ice_Cream.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/f7/Decor_Rock_Ice_Cream.png/150px-Decor_Rock_Ice_Cream.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0b/Decor_Winged_Ice_Cream.png/150px-Decor_Winged_Ice_Cream.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Puzzle: 2021 Fall Memories"
@@ -814,7 +884,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/f/f9/Decor_Purple_Puzzle_1.png/144px-Decor_Purple_Puzzle_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/08/Decor_Rock_Puzzle_1.png/150px-Decor_Rock_Puzzle_1.png",
 					"https://pikmin.wiki.gallery/images/8/8d/Decor_Winged_Puzzle_1.png",
-				]}></Group>
+				]}
+			/>
 			<Group
 				category="Special"
 				description="Puzzle: 2022 Summer Memories"
@@ -826,7 +897,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/7/7b/Decor_Purple_Puzzle_2.png/135px-Decor_Purple_Puzzle_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/04/Decor_Rock_Puzzle_2.png/150px-Decor_Rock_Puzzle_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/6/61/Decor_Winged_Puzzle_2.png/150px-Decor_Winged_Puzzle_2.png",
-				]}></Group>
+				]}
+			/>
 		</div>
 	);
 }
