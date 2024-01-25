@@ -23,10 +23,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 	}
 
 	// determine whether or not it is rare from the link
-	let rare = false;
-	if (url.includes("Rare")) {
-		rare = true;
-	}
+	const rare = url.includes("Rare");
 
 	// assign a name to the pikmin based on its attributes
 	const pikminName = type + category + (rare ? "Rare" : "Normal");
@@ -58,7 +55,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 
 	// drop-shadow-[-2px_0]
 	return (
-		<div id={type} className={rare ? "rare" : ""} onClick={handleClick}>
+		<div id={type} className={rare.toString() ?? ""} onClick={handleClick}>
 			{/* if the pikmin is rare, add a star that will fill if the user has that pikmin */}
 			{rare ? hasPikmin ? <div id="star">★</div> : <div id="star">☆</div> : null}
 			<img src={url} alt={type + " " + category + " pikmin"} className={filter} />
