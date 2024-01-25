@@ -24,7 +24,7 @@ export default function Home() {
 				<div className={showMenu}>
 					<NavMenu showMenu={showMenu} setShowMenu={setShowMenu} />
 				</div>
-				<div id="title" className="">
+				<div id="title" className="font-rodin font-bold text-5xl">
 					<a href="/">PIKMIN PROGRESS TRACKER</a>
 				</div>
 			</nav>
