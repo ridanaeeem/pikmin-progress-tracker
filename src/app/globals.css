@@ -61,17 +61,6 @@ nav {
 	border: 1px solid black;
 }
 
-.top {
-	text-align: center;
-	font-size: 1rem;
-	color: white;
-	border-radius: 40px;
-	background-color: black;
-	margin: 0.5rem;
-	padding: 0.5rem;
-	width: 100%;
-}
-
 .menuDisplay img {
 	background-color: white;
 	height: 40px;
