@@ -7,6 +7,11 @@ const config: Config = {
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		fontFamily: {
+			// FOT-Rodin Pro
+			// rodin: ["FOT-Rodin Pro", "sans-serif"],
+			rodin: ["fot-rodin-pro", "fot-rodin-pron", "sans-serif"],
+		},
 		extend: {
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

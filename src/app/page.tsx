@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import NavMenu from "@/components/NavMenu";
 import AllPikmin from "@/components/AllPikmin";
-import About from "@/components/About"
+import About from "@/components/About";
 
 export default function Home() {
 	const [showMenu, setShowMenu] = useState("hidden");
@@ -22,9 +22,9 @@ export default function Home() {
 					≡
 				</div>
 				<div className={showMenu}>
-					<NavMenu showMenu={showMenu} setShowMenu={setShowMenu}/>
+					<NavMenu showMenu={showMenu} setShowMenu={setShowMenu} />
 				</div>
-				<div id="title" className="">
+				<div id="title" className="font-rodin font-bold text-5xl">
 					<a href="/">PIKMIN PROGRESS TRACKER</a>
 				</div>
 			</nav>

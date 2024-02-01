@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Pikmin({ category, url }: { category: string; url: string }) {
 	// determine the type of pikmin from the link
@@ -58,7 +59,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 		<div id={type} className={rare.toString() ?? ""} onClick={handleClick}>
 			{/* if the pikmin is rare, add a star that will fill if the user has that pikmin */}
 			{rare ? hasPikmin ? <div id="star">★</div> : <div id="star">☆</div> : null}
-			<img src={url} alt={type + " " + category + " pikmin"} className={filter} />
+			<Image src={url} alt={type + " " + category + " pikmin"} className={filter} width={2000} height={2000} />
 		</div>
 	);
 }

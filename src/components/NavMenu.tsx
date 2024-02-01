@@ -1,6 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
+const LinkWrapper = ({ href, text }: { href: string; text: string }) => {
+	return (
+		<Link href={href} className="flex-1 m-1 rounded-full bg-black text-white flex justify-center items-center">
+			{text}
+		</Link>
+	);
+};
+
 export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; setShowMenu: any }) {
 	const handleLinkClick = (event: any) => {
 		if (event.target.tagName === "A" || event.target.tagName === "IMG") {
@@ -14,16 +22,10 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 
 	return (
 		<div className="menuDisplay" onClick={handleLinkClick}>
-			<div className="flex">
-				<Link className="top flex justify-center items-center h-100" href="#title">
-					Back to top
-				</Link>
-				<Link className="top flex justify-center items-center h-100" href="#stats">
-					Stats
-				</Link>
-				<Link className="top flex justify-center items-center h-100" href="#about">
-					About
-				</Link>
+			<div className="flex flex-start">
+				<LinkWrapper href="#title" text="Back to top" />
+				<LinkWrapper href="#stats" text="Stats" />
+				<LinkWrapper href="#about" text="About" />
 			</div>
 			<div id="iconDisplay">
 				<Link href="#restaurant">

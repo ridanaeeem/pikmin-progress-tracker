@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	images: {
+		domains: ["pikmin.wiki.gallery", "www.pikminwiki.com", "github.com"],
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

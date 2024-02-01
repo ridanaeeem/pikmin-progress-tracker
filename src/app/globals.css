@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "fot-rodin-pro";
+	src: url("/FOT-Rodin\ Pro\ DB.otf Pro DB.otf");
+}
+
 body {
 	background: #f7f1dc;
 }
@@ -21,10 +26,6 @@ nav {
 }
 
 #title {
-	font-family: "FOT-Rodin Pro";
-	font-style: normal;
-	font-weight: 900;
-	font-size: 3rem;
 	line-height: 84px;
 	text-align: center;
 	letter-spacing: 0.07em;
@@ -59,17 +60,6 @@ nav {
 	background-color: #809a74;
 	border-radius: 40px;
 	border: 1px solid black;
-}
-
-.top {
-	text-align: center;
-	font-size: 1rem;
-	color: white;
-	border-radius: 40px;
-	background-color: black;
-	margin: 0.5rem;
-	padding: 0.5rem;
-	width: 100%;
 }
 
 .menuDisplay img {
