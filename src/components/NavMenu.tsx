@@ -250,6 +250,7 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 				<Link href="#koppaitespacesuit">Koppaite Space Suit</Link>
 				<Link href="#mitten">Mitten</Link>
 				<Link href="#2023glasses">2023 Glasses</Link>
+				<Link href="#2024glasses">2024 Glasses</Link>
 				<Link href="#presentsticker">Present Sticker</Link>
 				<Link href="#easteregg">Easter Egg</Link>
 				<Link href="#sneakerkeychain">Sneaker Keychain</Link>
