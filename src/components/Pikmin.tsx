@@ -27,7 +27,8 @@ export default function Pikmin({ category, description, url }: { category: strin
 	const rare = url.includes("Rare");
 
 	// assign a name to the pikmin based on its attributes
-	const pikminName = type + category + description.slice(0, 5) + (rare ? "Rare" : "Normal");
+	const pikminName =
+		type + category.replace(/\s+/g, "") + description.replace(/\s+/g, "") + (rare ? "Rare" : "Normal");
 
 	// check in local storage if the user has a pikmin already, default to false if not
 	const [hasPikmin, setHasPikmin] = useState(() => {
