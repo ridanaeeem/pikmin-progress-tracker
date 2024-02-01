@@ -12,7 +12,7 @@ export default function Group({
 }) {
 	const pikmins = urls.map((url) => (
 		<div key={url} className="pikmin">
-			<Pikmin category={category} url={url} />
+			<Pikmin category={category} description={description} url={url} />
 		</div>
 	));
 	return (

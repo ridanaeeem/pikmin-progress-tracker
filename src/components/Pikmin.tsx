@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
-export default function Pikmin({ category, url }: { category: string; url: string }) {
+export default function Pikmin({ category, description, url }: { category: string; description: string; url: string }) {
 	// determine the type of pikmin from the link
 	let type: string = "";
 
@@ -27,7 +27,7 @@ export default function Pikmin({ category, url }: { category: string; url: strin
 	const rare = url.includes("Rare");
 
 	// assign a name to the pikmin based on its attributes
-	const pikminName = type + category + (rare ? "Rare" : "Normal");
+	const pikminName = type + category + description.slice(0, 5) + (rare ? "Rare" : "Normal");
 
 	// check in local storage if the user has a pikmin already, default to false if not
 	const [hasPikmin, setHasPikmin] = useState(() => {
