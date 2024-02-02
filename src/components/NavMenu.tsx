@@ -240,7 +240,7 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 			</div>
 			<div id="specialDisplay">
 				<Link href="#mariohat">Mario Hat</Link>
-				<Link href="#lunarnewyearornament">Lunar New Year Ornament</Link>
+				<Link href="#lunarnewyearornament:red">Lunar New Year Ornament</Link>
 				<Link href="#whitechesspiece">Chess Piece</Link>
 				<Link href="#fingerboard">Fingerboard</Link>
 				<Link href="#flowercard">Flower Card</Link>
