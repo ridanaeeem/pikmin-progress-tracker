@@ -625,11 +625,17 @@ export default function AllPikmin() {
 			/>
 			<Group
 				category="Special"
-				description="Lunar New Year Ornament"
+				description="Lunar New Year Ornament: Red"
 				urls={[
 					"https://pikmin.wiki.gallery/images/thumb/1/15/Decor_Red_Special_Lunar_New_Year.png/200px-Decor_Red_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/a/ac/Decor_Yellow_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/16/Decor_Blue_Special_Lunar_New_Year.png/200px-Decor_Blue_Special_Lunar_New_Year.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Lunar New Year Ornament: Yellow"
+				urls={[
 					"https://pikmin.wiki.gallery/images/thumb/5/59/Decor_Red_Special_Lunar_New_Year_2.png/200px-Decor_Red_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/5/50/Decor_Yellow_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0f/Decor_Blue_Special_Lunar_New_Year_2.png/200px-Decor_Blue_Special_Lunar_New_Year_2.png",
