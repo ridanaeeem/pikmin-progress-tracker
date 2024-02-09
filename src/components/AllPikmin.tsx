@@ -630,7 +630,7 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/1/15/Decor_Red_Special_Lunar_New_Year.png/200px-Decor_Red_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/a/ac/Decor_Yellow_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/16/Decor_Blue_Special_Lunar_New_Year.png/200px-Decor_Blue_Special_Lunar_New_Year.png",
-					"https://www.pikminwiki.com/File:Decor_White_Special_Lunar_New_Year.png",
+					"https://pikmin.wiki.gallery/images/e/e5/Decor_White_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/thumb/b/b7/Decor_Purple_Special_Lunar_New_Year.png/158px-Decor_Purple_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Rock_Special_Lunar_New_Year.png/200px-Decor_Rock_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/f/fa/Decor_Winged_Special_Lunar_New_Year.png",
@@ -657,8 +657,8 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/7/76/Decor_Yellow_Chess_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/47/Decor_Blue_Chess_1.png/77px-Decor_Blue_Chess_1.png",
 					"https://pikmin.wiki.gallery/images/5/54/Decor_White_Chess_1.png",
-					"https://pikmin.wiki.gallery/images/thumb/f/fd/Decor_Purple_Chess_1.png/171px-Decor_Purple_Chess_1.png",
-					"https://pikmin.wiki.gallery/images/thumb/0/0a/Decor_Rock_Chess_1.png/200px-Decor_Rock_Chess_1.png",
+					"https://pikmin.wiki.gallery/images/thumb/f/fd/Decor_Purple_Chess_1.png/109px-Decor_Purple_Chess_1.png",
+					"https://pikmin.wiki.gallery/images/thumb/0/0a/Decor_Rock_Chess_1.png/177px-Decor_Rock_Chess_1.png",
 					"https://pikmin.wiki.gallery/images/thumb/b/be/Decor_Winged_Chess_1.png/107px-Decor_Winged_Chess_1.png",
 				]}
 			/>

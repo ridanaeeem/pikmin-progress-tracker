@@ -62,7 +62,7 @@ export default function Pikmin({ category, description, url }: { category: strin
 			{rare ? hasPikmin ? <div id="star">★</div> : <div id="star">☆</div> : null}
 			<Image
 				src={url}
-				alt={(rare ? "Rare" : null) + type + " " + category + " " + description + " pikmin"}
+				alt={(rare ? "Rare" : "") + type + " " + category + " " + description + " pikmin"}
 				className={filter}
 				width={2000}
 				height={2000}
