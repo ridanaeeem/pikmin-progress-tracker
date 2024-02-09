@@ -788,24 +788,24 @@ export default function AllPikmin() {
 				category="Special"
 				description="2024 Glasses"
 				urls={[
-					"https://pikmin.wiki.gallery/images/thumb/1/1e/Decor_Red_2024_Glasses.png/175px-Decor_Red_2024_Glasses.png",
-					"https://pikmin.wiki.gallery/images/thumb/c/cb/Decor_Yellow_2024_Glasses.png/164px-Decor_Yellow_2024_Glasses.png",
-					"https://pikmin.wiki.gallery/images/thumb/d/dc/Decor_Blue_2024_Glasses.png/182px-Decor_Blue_2024_Glasses.png",
-					"https://pikmin.wiki.gallery/images/thumb/6/63/Decor_White_2024_Glasses.png/196px-Decor_White_2024_Glasses.png",
-					"https://pikmin.wiki.gallery/images/thumb/e/eb/Decor_Purple_2024_Glasses.png/157px-Decor_Purple_2024_Glasses.png",
+					"https://pikmin.wiki.gallery/images/1/1e/Decor_Red_2024_Glasses.png",
+					"https://pikmin.wiki.gallery/images/c/cb/Decor_Yellow_2024_Glasses.png",
+					"https://pikmin.wiki.gallery/images/thumb/d/dc/Decor_Blue_2024_Glasses.png/200px-Decor_Blue_2024_Glasses.png",
+					"https://pikmin.wiki.gallery/images/6/63/Decor_White_2024_Glasses.png",
+					"https://pikmin.wiki.gallery/images/thumb/e/eb/Decor_Purple_2024_Glasses.png/200px-Decor_Purple_2024_Glasses.png",
 					"https://pikmin.wiki.gallery/images/thumb/9/96/Decor_Rock_2024_Glasses.png/200px-Decor_Rock_2024_Glasses.png",
-					"https://pikmin.wiki.gallery/images/thumb/6/64/Decor_Winged_2024_Glasses.png/185px-Decor_Winged_2024_Glasses.png",
+					"https://pikmin.wiki.gallery/images/thumb/6/64/Decor_Winged_2024_Glasses.png/200px-Decor_Winged_2024_Glasses.png",
 				]}
 			/>
 			<Group
 				category="Special"
-				description="Present Sticker"
+				description="Valentine Sticker"
 				urls={[
 					"https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Red_Present_Sticker.png/141px-Decor_Red_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/6/66/Decor_Yellow_Present_Sticker.png/150px-Decor_Yellow_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Blue_Present_Sticker.png/150px-Decor_Blue_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/4/42/Decor_White_Present_Sticker.png/150px-Decor_White_Present_Sticker.png",
-					"https://pikmin.wiki.gallery/images/thumb/6/67/Decor_Purple_Present_Sticker.png/150px-Decor_Purple_Present_Sticker.png",
+					"https://pikmin.wiki.gallery/images/thumb/6/67/Decor_Purple_Present_Sticker.png/199px-Decor_Purple_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/c/cb/Decor_Rock_Present_Sticker.png/150px-Decor_Rock_Present_Sticker.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/fe/Decor_Winged_Present_Sticker.png/150px-Decor_Winged_Present_Sticker.png",
 				]}
