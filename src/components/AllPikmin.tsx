@@ -630,6 +630,10 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/1/15/Decor_Red_Special_Lunar_New_Year.png/200px-Decor_Red_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/a/ac/Decor_Yellow_Special_Lunar_New_Year.png",
 					"https://pikmin.wiki.gallery/images/thumb/1/16/Decor_Blue_Special_Lunar_New_Year.png/200px-Decor_Blue_Special_Lunar_New_Year.png",
+					"https://www.pikminwiki.com/File:Decor_White_Special_Lunar_New_Year.png",
+					"https://pikmin.wiki.gallery/images/thumb/b/b7/Decor_Purple_Special_Lunar_New_Year.png/158px-Decor_Purple_Special_Lunar_New_Year.png",
+					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Rock_Special_Lunar_New_Year.png/200px-Decor_Rock_Special_Lunar_New_Year.png",
+					"https://pikmin.wiki.gallery/images/f/fa/Decor_Winged_Special_Lunar_New_Year.png",
 				]}
 			/>
 			<Group
@@ -639,6 +643,10 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/5/59/Decor_Red_Special_Lunar_New_Year_2.png/200px-Decor_Red_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/5/50/Decor_Yellow_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/0f/Decor_Blue_Special_Lunar_New_Year_2.png/200px-Decor_Blue_Special_Lunar_New_Year_2.png",
+					"https://pikmin.wiki.gallery/images/a/a7/Decor_White_Special_Lunar_New_Year_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/5/50/Decor_Purple_Special_Lunar_New_Year_2.png/158px-Decor_Purple_Special_Lunar_New_Year_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/0/0a/Decor_Rock_Special_Lunar_New_Year_2.png/200px-Decor_Rock_Special_Lunar_New_Year_2.png",
+					"https://pikmin.wiki.gallery/images/b/b6/Decor_Winged_Special_Lunar_New_Year_2.png",
 				]}
 			/>
 			<Group
