@@ -18,7 +18,7 @@ export default function Home() {
 	return (
 		<main className="">
 			<nav>
-				<div id="menu" onClick={handleClick}>
+				<div id="menu" className="cursor-pointer" onClick={handleClick}>
 					≡
 				</div>
 				<div className={showMenu}>
