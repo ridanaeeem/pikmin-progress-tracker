@@ -56,7 +56,7 @@ export default function Pikmin({ category, description, url }: { category: strin
 
 	// drop-shadow-[-2px_0]
 	return (
-		<div id={type} className={rare.toString() ?? ""} onClick={handleClick}>
+		<div id={type} className="" onClick={handleClick}>
 			{/* if the pikmin is rare, add a star that will fill if the user has that pikmin */}
 			{rare ? hasPikmin ? <div id="star">★</div> : <div id="star">☆</div> : null}
 			<Image

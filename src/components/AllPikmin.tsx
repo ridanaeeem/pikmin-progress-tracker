@@ -674,9 +674,9 @@ export default function AllPikmin() {
 				category="Special"
 				description="Black Chess Piece"
 				urls={[
-					"https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Red_Chess_2.png/106px-Decor_Red_Chess_2.png",
-					"https://pikmin.wiki.gallery/images/thumb/3/3f/Decor_Yellow_Chess_2.png/101px-Decor_Yellow_Chess_2.png",
-					"https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Blue_Chess_2.png/124px-Decor_Blue_Chess_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/e/ef/Decor_Red_Chess_2.png/73px-Decor_Red_Chess_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/3/3f/Decor_Yellow_Chess_2.png/110px-Decor_Yellow_Chess_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Blue_Chess_2.png/77px-Decor_Blue_Chess_2.png",
 					"https://pikmin.wiki.gallery/images/4/43/Decor_White_Chess_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/a/a3/Decor_Purple_Chess_2.png/87px-Decor_Purple_Chess_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Rock_Chess_2.png/177px-Decor_Rock_Chess_2.png",
