@@ -399,19 +399,6 @@ export default function AllPikmin() {
 			/>
 			<Group
 				category="Roadside"
-				description="Winter Sticker"
-				urls={[
-					"https://pikmin.wiki.gallery/images/b/b8/Decor_Red_Roadside_Winter.png",
-					"https://pikmin.wiki.gallery/images/thumb/d/d1/Decor_Yellow_Roadside_Winter.png/200px-Decor_Yellow_Roadside_Winter.png",
-					"https://pikmin.wiki.gallery/images/4/4a/Decor_Blue_Roadside_Winter.png",
-					"https://pikmin.wiki.gallery/images/2/21/Decor_White_Roadside_Winter.png",
-					"https://pikmin.wiki.gallery/images/thumb/2/2c/Decor_Purple_Roadside_Winter.png/179px-Decor_Purple_Roadside_Winter.png",
-					"https://pikmin.wiki.gallery/images/thumb/d/d0/Decor_Rock_Roadside_Winter.png/200px-Decor_Rock_Roadside_Winter.png",
-					"https://pikmin.wiki.gallery/images/b/b4/Decor_Winged_Roadside_Winter.png",
-				]}
-			/>
-			<Group
-				category="Roadside"
 				description="Coin"
 				urls={[
 					"https://pikmin.wiki.gallery/images/2/27/Decor_Red_Roadside_Coin.png",
@@ -516,6 +503,10 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/a3/Decor_Red_Ramen.png/200px-Decor_Red_Ramen.png",
 					"https://pikmin.wiki.gallery/images/a/a7/Decor_Yellow_Ramen.png",
 					"https://pikmin.wiki.gallery/images/thumb/7/78/Decor_Blue_Ramen.png/200px-Decor_Blue_Ramen.png",
+					"https://pikmin.wiki.gallery/images/8/81/Decor_White_Ramen.png",
+					"https://pikmin.wiki.gallery/images/thumb/3/38/Decor_Purple_Ramen.png/200px-Decor_Purple_Ramen.png",
+					"https://pikmin.wiki.gallery/images/thumb/f/f5/Decor_Rock_Ramen.png/200px-Decor_Rock_Ramen.png",
+					"https://pikmin.wiki.gallery/images/thumb/1/17/Decor_Winged_Ramen.png/200px-Decor_Winged_Ramen.png",
 				]}
 			/>
 			<Group
@@ -525,6 +516,10 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/a/ab/Decor_Red_Bridge.png/200px-Decor_Red_Bridge.png",
 					"https://pikmin.wiki.gallery/images/thumb/5/52/Decor_Yellow_Bridge.png/200px-Decor_Yellow_Bridge.png",
 					"https://pikmin.wiki.gallery/images/thumb/3/37/Decor_Blue_Bridge.png/200px-Decor_Blue_Bridge.png",
+					"https://pikmin.wiki.gallery/images/thumb/7/7b/Decor_White_Bridge.png/200px-Decor_White_Bridge.png",
+					"https://pikmin.wiki.gallery/images/thumb/4/4f/Decor_Purple_Bridge.png/200px-Decor_Purple_Bridge.png",
+					"https://pikmin.wiki.gallery/images/thumb/9/90/Decor_Rock_Bridge.png/200px-Decor_Rock_Bridge.png",
+					"https://pikmin.wiki.gallery/images/thumb/1/1b/Decor_Winged_Bridge.png/200px-Decor_Winged_Bridge.png",
 				]}
 			/>
 			<Group
@@ -619,6 +614,19 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				category="Curry Restaurant"
+				description="Curry Bowl"
+				urls={[
+					"https://pikmin.wiki.gallery/images/thumb/6/61/Decor_Red_curry.png/183px-Decor_Red_curry.png",
+					"https://pikmin.wiki.gallery/images/thumb/3/33/Decor_Yellow_curry.png/171px-Decor_Yellow_curry.png",
+					"https://pikmin.wiki.gallery/images/thumb/c/c6/Decor_Blue_curry.png/200px-Decor_Blue_curry.png",
+					"https://pikmin.wiki.gallery/images/thumb/e/e5/Decor_White_curry.png/197px-Decor_White_curry.png",
+					"https://pikmin.wiki.gallery/images/thumb/0/02/Decor_Purple_curry.png/200px-Decor_Purple_curry.png",
+					"https://pikmin.wiki.gallery/images/thumb/6/63/Decor_Rock_curry.png/196px-Decor_Rock_curry.png",
+					"https://pikmin.wiki.gallery/images/thumb/c/c3/Decor_Winged_curry.png/165px-Decor_Winged_curry.png",
+				]}
+			/>
+			<Group
 				category="Special"
 				description="Mario Hat"
 				urls={["https://pikmin.wiki.gallery/images/5/50/Decor_Special_Mario.png"]}
@@ -638,7 +646,7 @@ export default function AllPikmin() {
 			/>
 			<Group
 				category="Special"
-				description="Lunar New Year Ornament: Yellow"
+				description="Lunar New Year Ornament: Gold"
 				urls={[
 					"https://pikmin.wiki.gallery/images/thumb/5/59/Decor_Red_Special_Lunar_New_Year_2.png/200px-Decor_Red_Special_Lunar_New_Year_2.png",
 					"https://pikmin.wiki.gallery/images/5/50/Decor_Yellow_Special_Lunar_New_Year_2.png",
@@ -820,6 +828,15 @@ export default function AllPikmin() {
 			/>
 			<Group
 				category="Special"
+				description="Reverse Valentine's Day Sticker"
+				urls={[
+					"https://pikmin.wiki.gallery/images/b/b2/Decor_Red_Reverse_Valentine_Sticker.png",
+					"https://pikmin.wiki.gallery/images/2/2e/Decor_Yellow_Reverse_Valentine_Sticker.png",
+					"https://pikmin.wiki.gallery/images/c/c8/Decor_Blue_Reverse_Valentine_Sticker.png",
+				]}
+			/>
+			<Group
+				category="Special"
 				description="Present Sticker (Gold)"
 				urls={[
 					"https://pikmin.wiki.gallery/images/thumb/f/f2/Decor_Red_Tour_Sticker.png/141px-Decor_Red_Tour_Sticker.png",
@@ -839,6 +856,19 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/2/26/Decor_Purple_Easter_Egg.png/111px-Decor_Purple_Easter_Egg.png",
 					"https://pikmin.wiki.gallery/images/thumb/f/f9/Decor_Rock_Easter_Egg.png/139px-Decor_Rock_Easter_Egg.png",
 					"https://pikmin.wiki.gallery/images/e/e5/Decor_Winged_Easter_Egg.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Bunny Egg"
+				urls={[
+					"https://pikmin.wiki.gallery/images/4/4a/Decor_Red_Bunny_Egg.png",
+					"https://pikmin.wiki.gallery/images/c/c8/Decor_Yellow_Bunny_Egg.png",
+					"https://pikmin.wiki.gallery/images/2/24/Decor_Blue_Bunny_Egg.png",
+					"https://pikmin.wiki.gallery/images/1/19/Decor_White_Bunny_Egg.png",
+					"https://pikmin.wiki.gallery/images/thumb/8/88/Decor_Purple_Bunny_Egg.png/160px-Decor_Purple_Bunny_Egg.png",
+					"https://pikmin.wiki.gallery/images/thumb/7/7d/Decor_Rock_Bunny_Egg.png/186px-Decor_Rock_Bunny_Egg.png",
+					"https://pikmin.wiki.gallery/images/6/6a/Decor_Winged_Bunny_Egg.png",
 				]}
 			/>
 			<Group
@@ -924,6 +954,78 @@ export default function AllPikmin() {
 					"https://pikmin.wiki.gallery/images/thumb/7/7b/Decor_Purple_Puzzle_2.png/135px-Decor_Purple_Puzzle_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/0/04/Decor_Rock_Puzzle_2.png/150px-Decor_Rock_Puzzle_2.png",
 					"https://pikmin.wiki.gallery/images/thumb/6/61/Decor_Winged_Puzzle_2.png/150px-Decor_Winged_Puzzle_2.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Spring Sticker"
+				urls={[
+					"https://pikmin.wiki.gallery/images/e/e8/Decor_Red_Spring_Sticker.png",
+					"https://pikmin.wiki.gallery/images/thumb/2/2f/Decor_Yellow_Spring_Sticker.png/200px-Decor_Yellow_Spring_Sticker.png",
+					"https://pikmin.wiki.gallery/images/e/eb/Decor_Blue_Spring_Sticker.png",
+					"https://pikmin.wiki.gallery/images/7/78/Decor_White_Spring_Sticker.png",
+					"https://pikmin.wiki.gallery/images/thumb/4/43/Decor_Purple_Spring_Sticker.png/179px-Decor_Purple_Spring_Sticker.png",
+					"https://pikmin.wiki.gallery/images/thumb/4/43/Decor_Rock_Spring_Sticker.png/200px-Decor_Rock_Spring_Sticker.png",
+					"https://pikmin.wiki.gallery/images/c/cd/Decor_Winged_Spring_Sticker.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Winter Sticker"
+				urls={[
+					"https://pikmin.wiki.gallery/images/b/b8/Decor_Red_Roadside_Winter.png",
+					"https://pikmin.wiki.gallery/images/thumb/d/d1/Decor_Yellow_Roadside_Winter.png/200px-Decor_Yellow_Roadside_Winter.png",
+					"https://pikmin.wiki.gallery/images/4/4a/Decor_Blue_Roadside_Winter.png",
+					"https://pikmin.wiki.gallery/images/2/21/Decor_White_Roadside_Winter.png",
+					"https://pikmin.wiki.gallery/images/thumb/2/2c/Decor_Purple_Roadside_Winter.png/179px-Decor_Purple_Roadside_Winter.png",
+					"https://pikmin.wiki.gallery/images/thumb/d/d0/Decor_Rock_Roadside_Winter.png/200px-Decor_Rock_Roadside_Winter.png",
+					"https://pikmin.wiki.gallery/images/b/b4/Decor_Winged_Roadside_Winter.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Playing Card"
+				urls={[
+					"https://pikmin.wiki.gallery/images/4/45/Decor_Red_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/2/27/Decor_Yellow_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/0/06/Decor_Blue_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/9/9a/Decor_White_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/thumb/1/18/Decor_Purple_Playing_Card_1.png/200px-Decor_Purple_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/thumb/4/48/Decor_Rock_Playing_Card_1.png/200px-Decor_Rock_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/thumb/c/ce/Decor_Winged_Playing_Card_1.png/200px-Decor_Winged_Playing_Card_1.png",
+					"https://pikmin.wiki.gallery/images/e/e3/Decor_Red_Playing_Card_2.png",
+					"https://pikmin.wiki.gallery/images/f/f0/Decor_Yellow_Playing_Card_2.png",
+					"https://pikmin.wiki.gallery/images/5/53/Decor_Blue_Playing_Card_2.png",
+					"https://pikmin.wiki.gallery/images/f/f9/Decor_White_Playing_Card_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/b/bc/Decor_Purple_Playing_Card_2.png/200px-Decor_Purple_Playing_Card_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/6/6d/Decor_Rock_Playing_Card_2.png/200px-Decor_Rock_Playing_Card_2.png",
+					"https://pikmin.wiki.gallery/images/thumb/b/bf/Decor_Winged_Playing_Card_2.png/200px-Decor_Winged_Playing_Card_2.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Cheese"
+				urls={[
+					"https://pikmin.wiki.gallery/images/thumb/e/e2/Decor_Red_Cheese.png/200px-Decor_Red_Cheese.png",
+					"https://pikmin.wiki.gallery/images/thumb/c/c2/Decor_Yellow_Cheese.png/200px-Decor_Yellow_Cheese.png",
+					"https://pikmin.wiki.gallery/images/thumb/7/7d/Decor_Blue_Cheese.png/200px-Decor_Blue_Cheese.png",
+					"https://pikmin.wiki.gallery/images/a/a7/Decor_White_Cheese.png",
+					"https://pikmin.wiki.gallery/images/thumb/9/9c/Decor_Purple_Cheese.png/200px-Decor_Purple_Cheese.png",
+					"https://pikmin.wiki.gallery/images/thumb/f/fb/Decor_Rock_Cheese.png/145px-Decor_Rock_Cheese.png",
+					"https://pikmin.wiki.gallery/images/thumb/b/b1/Decor_Winged_Cheese.png/200px-Decor_Winged_Cheese.png",
+				]}
+			/>
+			<Group
+				category="Special"
+				description="Coral"
+				urls={[
+					"https://pikmin.wiki.gallery/images/thumb/c/cc/Decor_Red_Coral.png/200px-Decor_Red_Coral.png",
+					"https://pikmin.wiki.gallery/images/6/64/Decor_Yellow_Coral.png",
+					"https://pikmin.wiki.gallery/images/4/4a/Decor_Blue_Coral.png",
+					"https://pikmin.wiki.gallery/images/0/0e/Decor_White_Coral.png",
+					"https://pikmin.wiki.gallery/images/thumb/7/72/Decor_Purple_Coral.png/200px-Decor_Purple_Coral.png",
+					"https://pikmin.wiki.gallery/images/thumb/b/b1/Decor_Rock_Coral.png/198px-Decor_Rock_Coral.png",
+					"https://pikmin.wiki.gallery/images/a/a7/Decor_Winged_Coral.png",
 				]}
 			/>
 		</div>

@@ -174,8 +174,18 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 						alt="stadium"
 					/>
 				</Link>
-				<Link href="#rainyday"></Link>
-				<Link href="#snowyday"></Link>
+				{/* <Link href="#rainyday">
+					<img
+						src="https://pikmin.wiki.gallery/images/thumb/7/7f/Rainy_Day_icon.png/64px-Rainy_Day_icon.png"
+						alt="rainy day"
+					/>
+				</Link>
+				<Link href="#snowyday">
+					<img
+						src="https://pikmin.wiki.gallery/images/thumb/c/ca/Snowy_Day_icon.png/64px-Snowy_Day_icon.png"
+						alt="snowy day"
+					/>
+				</Link> */}
 				<Link href="#themepark">
 					<img
 						src="https://www.pikminwiki.com/images/thumb/9/90/ThemePark_icon.png/35px-ThemePark_icon.png"
@@ -219,18 +229,18 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 					/>
 				</Link>
 				{/* <Link href="#shrinesandtemples">
-				<img
-					src="https://www.pikminwiki.com/images/thumb/3/3d/Shrine_icon.png/48px-Shrine_icon.png"
-					alt="shrines and temples"
-				/>
-                </Link>
-                <Link href="#appliancesstore">
-                    <img
-                        src="https://www.pikminwiki.com/images/thumb/6/67/Appliances_Store_icon.png/27px-Appliances_Store_icon.png"
-                        alt="appliances store"
-                        className="whiteIcon"
-                    />
-                </Link> */}
+					<img
+						src="https://pikmin.wiki.gallery/images/thumb/3/3d/Shrine_icon.png/64px-Shrine_icon.png"
+						alt="shrines and temples"
+					/>
+				</Link>
+				<Link href="#appliancesstore">
+					<img
+						src="https://pikmin.wiki.gallery/images/thumb/6/67/Appliances_Store_icon.png/36px-Appliances_Store_icon.png"
+						alt="appliances store"
+						className="filter grayscale-0"
+					/>
+				</Link> */}
 				<Link href="#special">
 					<img
 						src="https://www.pikminwiki.com/images/thumb/0/01/Special_icon.png/48px-Special_icon.png"
@@ -251,14 +261,22 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 				<Link href="#mitten">Mitten</Link>
 				<Link href="#2023glasses">2023 Glasses</Link>
 				<Link href="#2024glasses">2024 Glasses</Link>
+				<Link href="#valentinesticker">Valentine Sticker</Link>
+				<Link href="#reversevalentine'sdaysticker">Reverse Valentine&apos;s Day Sticker</Link>
 				<Link href="#presentsticker">Present Sticker</Link>
 				<Link href="#easteregg">Easter Egg</Link>
+				<Link href="#bunnyegg">Bunny Egg</Link>
 				<Link href="#sneakerkeychain">Sneaker Keychain</Link>
 				<Link href="#pikmin4spaceships">Pikmin 4 Spaceships</Link>
 				<Link href="#mahjongtiles">Mahjong Tiles</Link>
 				<Link href="#icecream">Ice Cream</Link>
 				<Link href="#puzzle:2021fallmemories">Puzzle: 2021 Fall Memories</Link>
 				<Link href="#puzzle:2022summermemories">Puzzle: 2022 Summer Memories</Link>
+				<Link href="#springsticker">Spring Sticker</Link>
+				<Link href="#wintersticker">Winter Sticker</Link>
+				<Link href="#playingcard">Playing Card</Link>
+				<Link href="#cheese">Cheese</Link>
+				<Link href="#coral">Coral</Link>
 			</div>
 		</div>
 	);
