@@ -3,7 +3,21 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
-export default function Pikmin({ category, description, url }: { category: string; description: string; url: string }) {
+export default function Pikmin({
+	category,
+	description,
+	url,
+	groupName,
+	groupCount,
+	setGroupCount,
+}: {
+	category: string;
+	description: string;
+	url: string;
+	groupName: string;
+	groupCount: number;
+	setGroupCount: any;
+}) {
 	// determine the type of pikmin from the link
 	let type: string = "";
 
@@ -43,12 +57,15 @@ export default function Pikmin({ category, description, url }: { category: strin
 	// if the user clicks a pikmin, change the status of the having that pikmin
 	const handleClick = () => {
 		setHasPikmin(!hasPikmin);
+		// update group count
+		setGroupCount(groupCount + (hasPikmin ? -1 : 1));
 	};
 
 	useEffect(() => {
 		// update local storage whenever hasPikmin changes
 		if (typeof window !== "undefined") {
 			localStorage.setItem(pikminName, JSON.stringify(hasPikmin));
+			localStorage.setItem(groupName, groupCount.toString());
 			// update filter as well
 			setFilter(hasPikmin ? "filter drop-shadow-pikminShadow" : "filter grayscale-100 brightness-0 opacity-40");
 		}
