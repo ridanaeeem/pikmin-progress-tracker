@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Clear from "@/components/Clear";
 
 const LinkWrapper = ({ href, text }: { href: string; text: string }) => {
 	return (
@@ -26,6 +27,7 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 				<LinkWrapper href="#title" text="Back to top" />
 				<LinkWrapper href="#stats" text="Stats" />
 				<LinkWrapper href="#about" text="About" />
+				<Clear />
 			</div>
 			<div id="iconDisplay">
 				<Link href="#restaurant">
