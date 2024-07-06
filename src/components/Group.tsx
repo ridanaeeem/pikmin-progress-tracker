@@ -1,6 +1,7 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Pikmin from "@/components/Pikmin";
+import TempPikmin from "@/components/TempPikmin";
 
 export default function Group({
 	category,
@@ -40,18 +41,33 @@ export default function Group({
 			/>
 		</div>
 	));
+
+	const tempPikmins = urls.map((url) => (
+		<div key={url} className="pikmin">
+			<TempPikmin category={category} description={description} url={url} />
+		</div>
+	));
 	return (
 		<>
 			<div id={category.toLowerCase().replace(/\s+/g, "")} className="groupName">
 				<div id={description.toLowerCase().replace(/\s+/g, "")}></div>
 				{category} - {description}
 			</div>
-			{hydrated && (
-				<div className="groupName">
-					{groupCount} / {urls.length}
+			{/* <Suspense fallback={<div>LOAD</div>}> */}
+			{hydrated ? (
+				<div>
+					<div className="groupName">
+						{groupCount} / {urls.length}
+					</div>
+					<div className="group bg-starting">{pikmins}</div>
+				</div>
+			) : (
+				<div>
+					<div className="groupName">... / {urls.length}</div>
+					<div className="group bg-starting">{tempPikmins}</div>
 				</div>
 			)}
-			<div className="group bg-starting">{hydrated && pikmins}</div>
+			{/* </Suspense> */}
 		</>
 	);
 }
