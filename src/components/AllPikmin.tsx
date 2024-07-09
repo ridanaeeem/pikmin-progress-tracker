@@ -1,10 +1,21 @@
 import React from "react";
 import Group from "@/components/Group";
 
-export default function AllPikmin() {
+export default function AllPikmin({
+	stats,
+	statsOk,
+	setStatsOk,
+}: {
+	stats: Map<string, number>;
+	statsOk: boolean;
+	setStatsOk: Function;
+}) {
 	return (
 		<div className="flex flex-col basis-0 items-center;">
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Restaurant"
 				description="Chef Hat"
 				urls={[
@@ -21,6 +32,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Café"
 				description="Coffee Cup"
 				urls={[
@@ -34,6 +48,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Sweet Shop"
 				description="Macaron"
 				urls={[
@@ -47,6 +64,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Sweet Shop"
 				description="Donut"
 				urls={[
@@ -60,6 +80,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Movie Theater"
 				description="Popcorn Snack"
 				urls={[
@@ -73,6 +96,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Pharmacy"
 				description="Toothbrush"
 				urls={[
@@ -86,6 +112,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Zoo"
 				description="Dandelion"
 				urls={[
@@ -99,6 +128,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Forest"
 				description="Stag Beetle"
 				urls={[
@@ -112,6 +144,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Forest"
 				description="Acorn"
 				urls={[
@@ -125,6 +160,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Waterside"
 				description="Fishing Lure"
 				urls={[
@@ -138,6 +176,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Post Office"
 				description="Stamp"
 				urls={[
@@ -151,6 +192,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Art Gallery"
 				description="Picture Frame"
 				urls={[
@@ -164,6 +208,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Airport"
 				description="Toy Airplane"
 				urls={[
@@ -177,6 +224,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Station"
 				description="Paper Train"
 				urls={[
@@ -190,6 +240,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Station"
 				description="Ticket"
 				urls={[
@@ -203,6 +256,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Beach"
 				description="Shell"
 				urls={[
@@ -216,6 +272,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Burger Place"
 				description="Burger"
 				urls={[
@@ -229,6 +288,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Corner Store"
 				description="Bottle Cap"
 				urls={[
@@ -242,6 +304,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Corner Store"
 				description="Snack"
 				urls={[
@@ -255,6 +320,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Supermarket"
 				description="Mushroom"
 				urls={[
@@ -268,6 +336,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Supermarket"
 				description="Banana"
 				urls={[
@@ -281,6 +352,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Bakery"
 				description="Baguette"
 				urls={[
@@ -294,6 +368,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Hair Salon"
 				description="Scissors"
 				urls={[
@@ -307,6 +384,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Clothes Store"
 				description="Hair Tie"
 				urls={[
@@ -320,6 +400,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Park"
 				description="Clover"
 				urls={[
@@ -333,6 +416,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Park"
 				description="Four-Leaf Clover"
 				urls={[
@@ -346,6 +432,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Library Or Bookstore"
 				description="Tiny Book"
 				urls={[
@@ -359,6 +448,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Roadside"
 				description="Green Sticker"
 				urls={[
@@ -372,6 +464,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Roadside"
 				description="Blue Sticker"
 				urls={[
@@ -385,6 +480,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Roadside"
 				description="Yellow Sticker"
 				urls={[
@@ -398,6 +496,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Roadside"
 				description="Coin"
 				urls={[
@@ -411,6 +512,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Sushi Restaurant"
 				description="Sushi"
 				urls={[
@@ -424,6 +528,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Mountain"
 				description="Mountain Pin Badge"
 				urls={[
@@ -433,6 +540,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Stadium"
 				description="Ball Keychain"
 				urls={[
@@ -442,6 +552,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Rainy Day"
 				description="Leaf Hat"
 				urls={[
@@ -451,6 +564,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Snowy Day"
 				description="Snow"
 				urls={[
@@ -459,6 +575,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Theme Park"
 				description="Theme Park Ticket"
 				urls={[
@@ -471,6 +590,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Bus Stop"
 				description="Bus Papercraft"
 				urls={[
@@ -484,6 +606,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Italian Restaurant"
 				description="Pizza"
 				urls={[
@@ -497,6 +622,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Ramen Restaurant"
 				description="Ramen Keychain"
 				urls={[
@@ -510,6 +638,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Bridge"
 				description="Bridge Pin Badge"
 				urls={[
@@ -523,6 +654,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Hotel"
 				description="Hotel Amenities"
 				urls={[
@@ -536,6 +670,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Makeup Store"
 				description="Makeup"
 				urls={[
@@ -549,6 +686,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Shrines and Temples"
 				description="Fortune (Very Lucky)"
 				urls={[
@@ -558,6 +698,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Shrines and Temples"
 				description="Fortune (Lucky)"
 				urls={[
@@ -567,6 +710,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Shrines and Temples"
 				description="Fortune (Pretty Lucky)"
 				urls={[
@@ -576,6 +722,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Shrines and Temples"
 				description="Fortune (A Little Lucky)"
 				urls={[
@@ -585,6 +734,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Shrines and Temples"
 				description="Fortune (Future Luck)"
 				urls={[
@@ -594,6 +746,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Appliances Store"
 				description="Battery (Large & Small)"
 				urls={[
@@ -606,6 +761,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Appliances Store"
 				description="Fairy Lights"
 				urls={[
@@ -614,6 +772,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Curry Restaurant"
 				description="Curry Bowl"
 				urls={[
@@ -627,11 +788,17 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Mario Hat"
 				urls={["https://pikmin.wiki.gallery/images/5/50/Decor_Special_Mario.png"]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Lunar New Year Ornament: Red"
 				urls={[
@@ -645,6 +812,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Lunar New Year Ornament: Gold"
 				urls={[
@@ -658,6 +828,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="White Chess Piece"
 				urls={[
@@ -671,6 +844,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Black Chess Piece"
 				urls={[
@@ -684,6 +860,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Fingerboard"
 				urls={[
@@ -697,6 +876,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Flower Card"
 				urls={[
@@ -727,6 +909,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Jack-o-lantern"
 				urls={[
@@ -740,6 +925,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Halloween Treat"
 				urls={[
@@ -753,6 +941,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="First Anniversary Snack"
 				urls={[
@@ -766,6 +957,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Koppaite Space Suit"
 				urls={[
@@ -775,6 +969,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Mitten"
 				urls={[
@@ -788,6 +985,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="2023 Glasses"
 				urls={[
@@ -801,6 +1001,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="2024 Glasses"
 				urls={[
@@ -814,6 +1017,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Valentine Sticker"
 				urls={[
@@ -827,6 +1033,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Reverse Valentine's Day Sticker"
 				urls={[
@@ -836,6 +1045,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Present Sticker (Gold)"
 				urls={[
@@ -846,6 +1058,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Easter Egg"
 				urls={[
@@ -859,6 +1074,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Bunny Egg"
 				urls={[
@@ -872,6 +1090,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Sneaker Keychain"
 				urls={[
@@ -885,6 +1106,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Pikmin 4 Spaceships"
 				urls={[
@@ -898,6 +1122,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Mahjong Tiles"
 				urls={[
@@ -918,6 +1145,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Ice Cream"
 				urls={[
@@ -931,6 +1161,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Puzzle: 2021 Fall Memories"
 				urls={[
@@ -944,6 +1177,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Puzzle: 2022 Summer Memories"
 				urls={[
@@ -957,6 +1193,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Spring Sticker"
 				urls={[
@@ -970,6 +1209,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Winter Sticker"
 				urls={[
@@ -983,6 +1225,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Playing Card"
 				urls={[
@@ -1003,6 +1248,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Cheese"
 				urls={[
@@ -1016,6 +1264,9 @@ export default function AllPikmin() {
 				]}
 			/>
 			<Group
+				stats={stats}
+				statsOk={statsOk}
+				setStatsOk={setStatsOk}
 				category="Special"
 				description="Coral"
 				urls={[

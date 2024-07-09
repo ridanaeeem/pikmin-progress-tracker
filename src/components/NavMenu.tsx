@@ -12,7 +12,17 @@ const LinkWrapper = ({ href, text }: { href: string; text: string }) => {
 	);
 };
 
-export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; setShowMenu: any }) {
+export default function NavMenu({
+	showMenu,
+	setShowMenu,
+	showStats,
+	setShowStats,
+}: {
+	showMenu: string;
+	setShowMenu: any;
+	showStats: string;
+	setShowStats: any;
+}) {
 	const handleLinkClick = (event: any) => {
 		if (event.target.tagName === "A" || event.target.tagName === "IMG") {
 			if (showMenu === "visible") {
@@ -23,11 +33,20 @@ export default function NavMenu({ showMenu, setShowMenu }: { showMenu: string; s
 		}
 	};
 
+	const handleStatsClick = (event: any) => {
+		setShowStats("visible");
+	};
+
 	return (
 		<div className="menuDisplay" onClick={handleLinkClick}>
 			<div className="flex flex-start">
 				<LinkWrapper href="#title" text="Back to top" />
-				<LinkWrapper href="#stats" text="Stats" />
+				<Link
+					href="#stats"
+					className="flex-1 m-1 rounded-full bg-black text-white flex justify-center items-center"
+					onClick={handleStatsClick}>
+					Stats
+				</Link>
 				<LinkWrapper href="#about" text="About" />
 				<Clear />
 			</div>

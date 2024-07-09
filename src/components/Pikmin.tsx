@@ -10,13 +10,15 @@ export default function Pikmin({
 	groupName,
 	groupCount,
 	setGroupCount,
+	stats,
 }: {
 	category: string;
 	description: string;
 	url: string;
 	groupName: string;
 	groupCount: number;
-	setGroupCount: any;
+	setGroupCount: Function;
+	stats: Map<string, number>;
 }) {
 	// determine the type of pikmin from the link
 	let type: string = "";
@@ -68,6 +70,8 @@ export default function Pikmin({
 			localStorage.setItem(groupName, groupCount.toString());
 			// update filter as well
 			setFilter(hasPikmin ? "filter drop-shadow-pikminShadow" : "filter grayscale-100 brightness-0 opacity-40");
+			// stats[groupName] = groupCount;
+			stats.set(groupName, groupCount);
 		}
 	}, [hasPikmin, pikminName]);
 

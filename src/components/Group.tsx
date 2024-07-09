@@ -7,13 +7,19 @@ export default function Group({
 	category,
 	description,
 	urls,
+	stats,
+	statsOk,
+	setStatsOk,
 }: {
 	category: string;
 	description: string;
 	urls: string[];
+	stats: Map<string, number>;
+	statsOk: boolean;
+	setStatsOk: Function;
 }) {
-	// assign a name to the pikmin group based on its attributes
-	let groupName = "count" + category.replace(/\s+/g, "") + description.replace(/\s+/g, "");
+	// keeps track of count numbers per groups
+	let groupName = "count&" + category.replace(/\s+/g, "&") + "&" + description.replace(/\s+/g, "&");
 
 	// hydrated is true when the local storage has been checked
 	const [hydrated, setHydrated] = useState(false);
@@ -24,8 +30,10 @@ export default function Group({
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			const storedValue = localStorage.getItem(groupName);
-			setGroupCount(storedValue ? parseInt(storedValue) : 0);
+			setGroupCount(storedValue ? parseInt(storedValue) ?? 0: 0);
 			setHydrated(true);
+			setStatsOk(true);
+			stats.set(groupName, groupCount);
 		}
 	}, [groupName]);
 
@@ -38,6 +46,7 @@ export default function Group({
 				groupName={groupName}
 				groupCount={groupCount}
 				setGroupCount={setGroupCount}
+				stats={stats}
 			/>
 		</div>
 	));
